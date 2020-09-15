@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  12 SEP 2020 15:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 01:26
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1445,9 +1445,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 2B.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
-)) (Hauptteil/sw/basis/basis.tex))
+ [4.4])) (Hauptteil/sw/basis/basis.tex))
 (Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
-[4.4] (Hauptteil/anhang/sw/basis.tex
+(Hauptteil/anhang/sw/basis.tex
 \openout4 = `bericht.pyg'.
 
 
@@ -1466,10 +1466,10 @@ runsystem(del bericht.pyg)...executed.
 Here is how much of TeX's memory you used:
  40484 strings out of 414581
  946155 string characters out of 2910320
- 1624410 words of memory out of 3000000
+ 1624409 words of memory out of 3000000
  56911 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,100p,1165b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,100p,1165b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on bericht.pdf (6 pages).
