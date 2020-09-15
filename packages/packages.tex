@@ -1,0 +1,54 @@
+\usepackage[ngerman]{babel}
+%\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage[left=2cm,right=2cm,bottom=2cm,bindingoffset=1cm]{geometry}
+\usepackage{totpages}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt} %obere Trennlinie
+\fancyhead[R]{Seite \thepage~von \ref{TotPages}}
+\usepackage{url}
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\usetikzlibrary{matrix,calc,shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{positioning}
+\usepackage{pgfplots}
+\usepackage[labelfont={bf,sf},font={small},%
+  labelsep=space]{caption}
+\usepackage{float}
+\usepackage{minted}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,
+bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false, citecolor = black] {hyperref}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}

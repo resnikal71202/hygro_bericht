@@ -1,0 +1,15 @@
+\subsection{Satelit}
+
+\subsubsection{Versorgungsspannung}
+\begin{minted}[frame = single]{c++}
+float fReadVcc() {
+  ADMUX = _BV(REFS0) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
+  delay(5); //delay for 3 milliseconds
+  ADCSRA |= _BV(ADSC); // Start ADC conversion
+  while (bit_is_set(ADCSRA, ADSC)); //wait until conversion is complete
+  int result = ADCL; //get first half of result
+  result |= ADCH << 8; //get rest of the result
+  float batVolt = (iREF / result) * 1024; //Use the known iRef to calculate battery voltage + resistance
+  return batVolt;
+}
+\end{minted}
