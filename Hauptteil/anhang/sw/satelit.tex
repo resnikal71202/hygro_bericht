@@ -20,3 +20,20 @@ float fReadVcc() {
   }
   low_power_sleep = 0;
 \end{minted}
+\subsection{cbp Satelit}
+\label{cbp satelit}
+\begin{minted}[linenos=true]{c++}
+  char data[24] = "";
+  char temp[5] = "v";
+  strcpy(data, temp);
+  dtostrf(fReadVcc(), 4, 2, temp);
+  strcat(data, temp);
+
+  strcat(data, ",h");
+  dtostrf(rh, 3, 1, temp);
+  strcat(data, temp);
+
+  strcat(data, ",t");
+  dtostrf(t, 3, 1, temp);
+  strcat(data, temp);  
+\end{minted}
