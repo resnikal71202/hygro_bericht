@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 19:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 19:24
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1217,6 +1217,27 @@ File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen305
+\ar@mcellbox=\box93
+\extrarowheight=\dimen306
+\NC@list=\toks40
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box94
+)
+\TX@col@width=\dimen307
+\TX@old@table=\dimen308
+\TX@old@col=\dimen309
+\TX@target=\dimen310
+\TX@delta=\dimen311
+\TX@cols=\count364
+\TX@ftn=\toks41
+)
 (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ))
@@ -1290,7 +1311,7 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box93
+\AtBeginShipoutBox=\box95
 
 (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1380,7 +1401,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count364
+\c@section@level=\count365
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -1389,7 +1410,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write6
 \openout6 = `bericht.out'.
 
-\c@lstlisting=\count365
+\c@lstlisting=\count366
  (Einleitung/Einleitung.tex
 (Einleitung/Titelseite/Titelseite.tex
 File: ./Einleitung/Titelseite/TH_Nuernberg_RGB.jpg Graphic file (type bmp)
@@ -1431,8 +1452,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 File: Hauptteil/sw/intro/ask.png Graphic file (type bmp)
 <Hauptteil/sw/intro/ask.png>
-File: Hauptteil/sw/intro/packege.png Graphic file (type bmp)
-<Hauptteil/sw/intro/packege.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\TU/Arial(0)/m/n/12 Training
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/Arial(0)/m/n/12 Preamble
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 11--11
+[]|\TU/Arial(0)/m/n/12 Start Sym-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\TU/Arial(0)/m/n/12 Frame
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/Arial(0)/m/n/12 Check
+ []
+
+
+Overfull \hbox (0.59398pt too wide) in paragraph at lines 11--11
+[]|\TU/Arial(0)/m/n/12 Nachrichten
+ []
+
 ) (Hauptteil/sw/satelit/satelit.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
@@ -1466,10 +1515,10 @@ runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40490 strings out of 414581
- 946328 string characters out of 2910320
- 1624410 words of memory out of 3000000
- 56916 multiletter control sequences out of 15000+200000
+ 40582 strings out of 414581
+ 947222 string characters out of 2910320
+ 1627343 words of memory out of 3000000
+ 57004 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,100p,1165b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
