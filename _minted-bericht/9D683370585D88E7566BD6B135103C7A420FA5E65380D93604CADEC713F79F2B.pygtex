@@ -1,12 +1,10 @@
 \begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k+kt}{float} \PYG{n+nf}{fReadVcc}\PYG{p}{()} \PYG{p}{\PYGZob{}}
   \PYG{n}{ADMUX} \PYG{o}{=} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{REFS0}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX3}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX2}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX1}\PYG{p}{);}
-  \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{);} \PYG{c+c1}{//delay for 3 milliseconds}
+  \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{);} \PYG{c+c1}{//delay for 5 milliseconds}
   \PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{ADSC}\PYG{p}{);} \PYG{c+c1}{// Start ADC conversion}
   \PYG{k}{while} \PYG{p}{(}\PYG{n}{bit\PYGZus{}is\PYGZus{}set}\PYG{p}{(}\PYG{n}{ADCSRA}\PYG{p}{,} \PYG{n}{ADSC}\PYG{p}{));} \PYG{c+c1}{//wait until conversion is complete}
   \PYG{k+kt}{int} \PYG{n}{result} \PYG{o}{=} \PYG{n}{ADCL}\PYG{p}{;} \PYG{c+c1}{//get first half of result}
   \PYG{n}{result} \PYG{o}{|=} \PYG{n}{ADCH} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+m+mi}{8}\PYG{p}{;} \PYG{c+c1}{//get rest of the result}
-  \PYG{k+kt}{float} \PYG{n}{batVolt} \PYG{o}{=} \PYG{p}{(}\PYG{n}{iREF} \PYG{o}{/} \PYG{n}{result}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mi}{1024}\PYG{p}{;} \PYG{c+c1}{//Use the known iRef to calculate battery voltage + resistance}
+  \PYG{k+kt}{float} \PYG{n}{batVolt} \PYG{o}{=} \PYG{p}{(}\PYG{n}{iREF} \PYG{o}{/} \PYG{n}{result}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mi}{1024}\PYG{p}{;} \PYG{c+c1}{//calculate battery voltage}
   \PYG{k}{return} \PYG{n}{batVolt}\PYG{p}{;}
-\PYG{p}{\PYGZcb{}}
 \end{Verbatim}

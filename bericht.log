@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 23:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 23:54
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1011,6 +1011,11 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 runsystem(if not exist _minted-bericht mkdir _minted-bericht)...executed.
 
 
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks39
+\inpenc@posthook=\toks40
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.sty"
 (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xparse.st
 y (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
@@ -1195,7 +1200,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
 \lst@mode=\count356
 \lst@gtempboxa=\box91
-\lst@token=\toks39
+\lst@token=\toks41
 \lst@length=\count357
 \lst@currlwidth=\dimen301
 \lst@column=\count358
@@ -1225,7 +1230,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen305
 \ar@mcellbox=\box93
 \extrarowheight=\dimen306
-\NC@list=\toks40
+\NC@list=\toks42
 \extratabsurround=\skip64
 \backup@length=\skip65
 \ar@cellbox=\box94
@@ -1236,7 +1241,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@target=\dimen310
 \TX@delta=\dimen311
 \TX@cols=\count364
-\TX@ftn=\toks41
+\TX@ftn=\toks43
 )
 (C:\Users\axel\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1498,38 +1503,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--1
 
  []
 
+) (Hauptteil/sw/basis/basis.tex))
+(Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
+(Hauptteil/anhang/sw/satelit.tex
 \openout4 = `bericht.pyg'.
 
 
-(_minted-bericht/C396CC7D249F8B33705696A7890EEC74420FA5E65380D93604CADEC713F79F
-2B.pygtex
+(_minted-bericht/9D683370585D88E7566BD6B135103C7A420FA5E65380D93604CADEC713F79F
+2B.pygtex [5.5]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
-)) (Hauptteil/sw/basis/basis.tex))
-(Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
-(Hauptteil/anhang/sw/basis.tex
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 5.
+)) (Hauptteil/anhang/sw/basis.tex
 \openout4 = `bericht.pyg'.
 
 
 (_minted-bericht/F02E326F800EE26F04DF7961ADBF7C0A420FA5E65380D93604CADEC713F79F
-2B.pygtex [5.5])))) [6.6] (bericht.bbl) [7.7]
+2B.pygtex)))) [6.6] (bericht.bbl) [7.7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
  (bericht.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 06A3FEC6801AE911E667BBE29D34E02E;789.
+(rerunfilecheck)             Checksum: D58B6E2F944F295C6CC7CEC0A7BB30BD;1031.
 runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40596 strings out of 414581
- 947826 string characters out of 2910320
- 1628343 words of memory out of 3000000
- 57011 multiletter control sequences out of 15000+200000
+ 40616 strings out of 414581
+ 948182 string characters out of 2910320
+ 1628090 words of memory out of 3000000
+ 57026 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,100p,1165b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,100p,1165b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on bericht.pdf (7 pages).
