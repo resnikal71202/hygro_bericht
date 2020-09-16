@@ -2,5 +2,7 @@
 
 \subsubsection{Versorgungsspannung}
 Um die Versorgunsspannung zu messen wird die interne $1.1V$ interne Spannungsreferenz des ATmega verwendet. Der verwendete ADC verwendet als maximal Spannung die Versorgungsspannung. Diese Entspricht also dem Maximum von 1024 (10 Bit). Durch Messung der Internen Referenzspannung können dann Rückschlüsse auf die Versorgungsspannung getroffen werden. 
-z.B. ergibt die Messung der Referenz einen Wert von $350$, so kann durch die Formel $\frac{1.1V}{ADC Result} * 1024$ berechnet werden. Siehe \ref{satelit spannung} Zeile 7.
+z.B. ergibt die Messung der Referenz einen Wert von $350$, so kann durch die Formel $\frac{1.1V}{ADC Result} * 1024$ berechnet werden. Siehe \ref{satelit spannung} Zeile 8.
 \subsubsection{low power}
+Die Anforderungen an die Laufzeit wurden durch ein \grqq deep-sleep \grqq realisiert. Hierfür wurde auf das git von Rocketscream zurückgegriffen\cite{lowpower}. Hier kann eine maximale sleep Dauer von $8s$ eingestellt werden. Für größere Zeiten muss ein Externer Interrupt festgelegt werden. Deshalb wird hier nicht die Clock abgeschalten, da diese verwendet wird um einen Timer zu steuern, welcher nach $8s$ einen Interrupt erzeugt, mit diesem Wacht der ATmega auf. Dies wird öfter wiederholt um größere Zeiten zu erreichen. Siehe \ref{lowpowersleep}
+\subsubsection{cbp Realisierung}

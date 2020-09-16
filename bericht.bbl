@@ -28,4 +28,10 @@
   \url{http://www.airspayce.com/mikem/arduino/RadioHead/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{lowpower}
+\BIBentryALTinterwordspacing
+{Rocket Scream Electronics}, \emph{Low-Power}. [Online]. Available:
+  \url{https://github.com/rocketscream/Low-Power}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

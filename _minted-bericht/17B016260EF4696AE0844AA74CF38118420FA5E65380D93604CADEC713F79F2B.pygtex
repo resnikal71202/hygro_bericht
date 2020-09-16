@@ -1,4 +1,5 @@
 \begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{float} \PYG{n+nf}{fReadVcc}\PYG{p}{()} \PYG{p}{\PYGZob{}}
   \PYG{n}{ADMUX} \PYG{o}{=} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{REFS0}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX3}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX2}\PYG{p}{)} \PYG{o}{|} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{MUX1}\PYG{p}{);}
   \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{);} \PYG{c+c1}{//delay for 5 milliseconds}
   \PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{n}{\PYGZus{}BV}\PYG{p}{(}\PYG{n}{ADSC}\PYG{p}{);} \PYG{c+c1}{// Start ADC conversion}

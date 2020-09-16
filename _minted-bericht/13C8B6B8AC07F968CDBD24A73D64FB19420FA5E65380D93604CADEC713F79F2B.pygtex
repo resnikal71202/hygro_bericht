@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{digitalWrite}\PYG{p}{(}\PYG{n}{ENABLE\PYGZus{}RXTX}\PYG{p}{,} \PYG{n}{LOW}\PYG{p}{);}
+  \PYG{k}{for}\PYG{p}{(;}\PYG{n}{low\PYGZus{}power\PYGZus{}sleep}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{20}\PYG{p}{;}\PYG{n}{low\PYGZus{}power\PYGZus{}sleep}\PYG{o}{++}\PYG{p}{)\PYGZob{}}
+    \PYG{n}{LowPower}\PYG{p}{.}\PYG{n}{powerDown}\PYG{p}{(}\PYG{n}{SLEEP\PYGZus{}8S}\PYG{p}{,} \PYG{n}{ADC\PYGZus{}OFF}\PYG{p}{,} \PYG{n}{BOD\PYGZus{}OFF}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{n}{low\PYGZus{}power\PYGZus{}sleep} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+\end{Verbatim}

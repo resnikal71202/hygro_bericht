@@ -1,6 +1,7 @@
 \subsection{Akkuspannung}
 \label{satelit spannung}
 \begin{minted}[linenos=true]{c++}
+float fReadVcc() {
   ADMUX = _BV(REFS0) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
   delay(5); //delay for 5 milliseconds
   ADCSRA |= _BV(ADSC); // Start ADC conversion
@@ -9,4 +10,13 @@
   result |= ADCH << 8; //get rest of the result
   float batVolt = (iREF / result) * 1024; //calculate battery voltage
   return batVolt;
+\end{minted}
+\subsection{lowpower sleep}
+\label{lowpowersleep}
+\begin{minted}[linenos=true]{c++}
+  digitalWrite(ENABLE_RXTX, LOW);
+  for(;low_power_sleep<20;low_power_sleep++){
+    LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
+  }
+  low_power_sleep = 0;
 \end{minted}
