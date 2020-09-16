@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 19:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  16 SEP 2020 23:24
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1482,45 +1482,54 @@ Overfull \hbox (0.59398pt too wide) in paragraph at lines 11--11
 []|\TU/Arial(0)/m/n/12 Nachrichten
  []
 
-) (Hauptteil/sw/satelit/satelit.tex
+) (Hauptteil/sw/cbp/cbp.tex [3.3]
+\openout4 = `bericht.pyg'.
+
+ (_minted-bericht/default-pyg-prefix.pygstyle) (_minted-bericht/default.pygstyl
+e)
+(_minted-bericht/9232C2CB362548515020F829DCA4BA88CF888ABDAFA8ADBA271ECB5A56BE91
+0A.pygtex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-[3.3]
+[4.4])) (Hauptteil/sw/satelit/satelit.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--1
+
+ []
+
 \openout4 = `bericht.pyg'.
 
- (_minted-bericht/default-pyg-prefix.pygstyle)
-(_minted-bericht/default.pygstyle)
+
 (_minted-bericht/C396CC7D249F8B33705696A7890EEC74420FA5E65380D93604CADEC713F79F
 2B.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
- [4.4])) (Hauptteil/sw/basis/basis.tex))
+)) (Hauptteil/sw/basis/basis.tex))
 (Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
 (Hauptteil/anhang/sw/basis.tex
 \openout4 = `bericht.pyg'.
 
 
 (_minted-bericht/F02E326F800EE26F04DF7961ADBF7C0A420FA5E65380D93604CADEC713F79F
-2B.pygtex)))) [5.5] (bericht.bbl) [6.6]
+2B.pygtex [5.5])))) [6.6] (bericht.bbl) [7.7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
  (bericht.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 72B2D98E8C71A6CD6F6E00EA0F323B57;699.
+(rerunfilecheck)             Checksum: 06A3FEC6801AE911E667BBE29D34E02E;789.
 runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40582 strings out of 414581
- 947222 string characters out of 2910320
- 1627343 words of memory out of 3000000
- 57004 multiletter control sequences out of 15000+200000
+ 40596 strings out of 414581
+ 947826 string characters out of 2910320
+ 1628343 words of memory out of 3000000
+ 57011 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,100p,1165b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,100p,1165b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bericht.pdf (6 pages).
+Output written on bericht.pdf (7 pages).

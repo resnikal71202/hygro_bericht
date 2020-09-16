@@ -1,0 +1,16 @@
+\subsection{char bare protocol (cbp)}
+Im zuge dieser Arbeit wurde ein eigenes Protokoll entwickelt, welches auf eine Paket basierte Übertragung, mit einem Master und n Slaves, aufbaut. In diesem Fall wird das Radiohead-ASK. Das Protokoll wurde cbp\footnote{Carmens-beef-protocol} genannt. Um in diesem Protokoll Daten zu Übertragen werden die Daten zu einem Char-array / einem String zusammengefügt. Verschiedene Daten werden durch einen Buchstaben gekennzeichnet. Anschließend werden die zu übertragenden Daten angehängt. Das format der Daten ist float oder int. Datensätze werden durch ein Komma getrennt. Ein Beispiel für einen solchen Datensatz könnte sein: \\
+\begin{minted}[frame = single]{html}
+v3.8,t26.5,h33.2
+\end{minted}
+Wie die Verschidenen Zeichen interpretiert werden wird Ebenfalls festgelegt:\\
+\begin{tabularx}{\textwidth}{|l|l|X|}
+\hline
+Char & Einheit & Funktion \\
+\hline
+v & $V$ & Batteriespannung\\
+t & $^{\circ} C$ & Sensor Temperatur\\
+h & $\%$ & Relative Luftfeuchtigkeit\\
+a & $-$ & Anzahl der verfügbaren Aktoren\\
+\hline
+\end{tabularx}
