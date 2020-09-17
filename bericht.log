@@ -1561,26 +1561,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
  (bericht.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
-
-
-Package rerunfilecheck Warning: File `bericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bericht.out':
-(rerunfilecheck)             Before: 1ABCCF287675536610F9C1BF546D936D;1671
-(rerunfilecheck)             After:  79BB05C6DDB87500F49A1F3E1112AEBA;1834.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `bericht.out' has not changed.
+(rerunfilecheck)             Checksum: 79BB05C6DDB87500F49A1F3E1112AEBA;1834.
 runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40665 strings out of 414581
- 950421 string characters out of 2910320
+ 40666 strings out of 414581
+ 950433 string characters out of 2910320
  1628090 words of memory out of 3000000
- 57048 multiletter control sequences out of 15000+200000
+ 57049 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,100p,1165b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
