@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  17 SEP 2020 20:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  18 SEP 2020 00:19
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1465,12 +1465,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-[4.4]) (Hauptteil/hw/atmega.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-)) (Hauptteil/sw/sw.tex (Hauptteil/sw/intro/intro.tex
+[4.4]) (Hauptteil/hw/atmega.tex)) (Hauptteil/sw/sw.tex
+(Hauptteil/sw/intro/intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 File: Hauptteil/sw/intro/ask.png Graphic file (type bmp)
@@ -1530,7 +1526,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--1
 
 
 (_minted-bericht/6EF25CEA276EA826B96BDDDB746C50C4420FA5E65380D93604CADEC713F79F
-2B.pygtex)) (Hauptteil/sw/basis/basis.tex [7.7]))
+2B.pygtex)) (Hauptteil/sw/basis/basis.tex [7.7] (Hauptteil/sw/basis/cbp/cbp.tex
+\openout5 = `bericht.pyg'.
+
+
+(_minted-bericht/48E288E02248BD1BD47CAE8C0C0C580A420FA5E65380D93604CADEC713F79F
+2B.pygtex)
+\openout5 = `bericht.pyg'.
+
+
+(_minted-bericht/79F9005E3FD0A4A27ECDB4138D0D365C420FA5E65380D93604CADEC713F79F
+2B.pygtex)
+\openout5 = `bericht.pyg'.
+
+
+(_minted-bericht/3513C0D4D42FCC46A1DF5BF7F8872FB5420FA5E65380D93604CADEC713F79F
+2B.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+) (Hauptteil/sw/basis/userinputs/userinputs.tex)
+(Hauptteil/sw/basis/oled/oled.tex)))
 (Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
 (Hauptteil/anhang/sw/satelit.tex
 \openout4 = `bericht.pyg'.
@@ -1540,7 +1557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--1
 2B.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
-)
+ [8.8])
 \openout4 = `bericht.pyg'.
 
 
@@ -1550,29 +1567,33 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 
 
 (_minted-bericht/E33991D81D32B0DF4AFA3119CC8C4124420FA5E65380D93604CADEC713F79F
-2B.pygtex [8.8])) (Hauptteil/anhang/sw/basis.tex
+2B.pygtex [9.9])) (Hauptteil/anhang/sw/basis.tex
 \openout4 = `bericht.pyg'.
 
 
-(_minted-bericht/F02E326F800EE26F04DF7961ADBF7C0A420FA5E65380D93604CADEC713F79F
-2B.pygtex)))) [9.9] (bericht.bbl) [10.10]
+(_minted-bericht/F9F787976154182985FC5DDA33503442420FA5E65380D93604CADEC713F79F
+2B.pygtex)))) [10.10] (bericht.bbl) [11.11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
  (bericht.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 79BB05C6DDB87500F49A1F3E1112AEBA;1834.
+(rerunfilecheck)             Checksum: 4651E95D909616837B19EC91803EBAB9;2094.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40666 strings out of 414581
- 950433 string characters out of 2910320
- 1628090 words of memory out of 3000000
- 57049 multiletter control sequences out of 15000+200000
+ 40696 strings out of 414581
+ 952077 string characters out of 2910320
+ 1628088 words of memory out of 3000000
+ 57059 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,100p,1165b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bericht.pdf (10 pages).
+Output written on bericht.pdf (11 pages).

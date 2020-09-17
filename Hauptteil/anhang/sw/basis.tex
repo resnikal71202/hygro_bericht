@@ -1,6 +1,29 @@
-\subsection{basis}
+\subsection{cbp Basis}
 %\pagenumbering{roman}
-\label{lst:tim3_defines}
+\label{cbp basis}
 \begin{minted}[linenos]{c++}
-dummy
+    if (manager.recvfromAck(buf, &len, &from))
+    {
+      from -= 2;
+      char *ptr = strtok((char *)buf, ",");
+      char *pEnd;
+      while (ptr != NULL) {
+        switch (ptr[0]) {
+          case 'v':
+            sensor[from].voltage = ++ptr; break;
+          case 'h':
+            sensor[from].humidity = ++ptr; break;
+          case 't':
+            sensor[from].degree = ++ptr; break;
+          case 'a':
+            actor[from].from = from;
+            actor[from].number = strtol(++ptr, &pEnd, 10);
+            break;
+        }
+        ptr = strtok(NULL, ",");
+        oledupdate = true;
+      }
+      // Send a reply back to the originator client
+      from += 2;
+    }
 \end{minted}

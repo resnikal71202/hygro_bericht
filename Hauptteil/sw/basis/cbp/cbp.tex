@@ -1,0 +1,4 @@
+\subsubsection{cbp Realisierung}
+Basisseitig werden die Übertragenen Char-Arrays \grqq auseinandergenommen \grqq .\\ Die Funktion \mintinline{c++}{recvfromAck(buf, &len, &from);} für das Manager-Objekt liefert das vom Satelit übertragene Char array in \mintinline{c++}{buf}. Da dies auf einem Mikrocontroller geschieht ist keine dynamische Speicherallokation realisiert. Somit wüsste man nicht wo das Ende des Übertragenen Array ist. Deshalb wird in \mintinline{c++}{len} die Länge des Arrays übergegeben.\\
+ 
+\ref{cbp basis}

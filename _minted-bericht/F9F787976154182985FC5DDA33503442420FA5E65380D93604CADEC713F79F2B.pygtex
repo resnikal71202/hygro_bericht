@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{manager}\PYG{p}{.}\PYG{n}{recvfromAck}\PYG{p}{(}\PYG{n}{buf}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{len}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{from}\PYG{p}{))}
+    \PYG{p}{\PYGZob{}}
+      \PYG{n}{from} \PYG{o}{\PYGZhy{}=} \PYG{l+m+mi}{2}\PYG{p}{;}
+      \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{ptr} \PYG{o}{=} \PYG{n}{strtok}\PYG{p}{((}\PYG{k+kt}{char} \PYG{o}{*}\PYG{p}{)}\PYG{n}{buf}\PYG{p}{,} \PYG{l+s}{\PYGZdq{},\PYGZdq{}}\PYG{p}{);}
+      \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{pEnd}\PYG{p}{;}
+      \PYG{k}{while} \PYG{p}{(}\PYG{n}{ptr} \PYG{o}{!=} \PYG{n+nb}{NULL}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{k}{switch} \PYG{p}{(}\PYG{n}{ptr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])} \PYG{p}{\PYGZob{}}
+          \PYG{k}{case} \PYG{l+s+sc}{\PYGZsq{}v\PYGZsq{}}\PYG{o}{:}
+            \PYG{n}{sensor}\PYG{p}{[}\PYG{n}{from}\PYG{p}{].}\PYG{n}{voltage} \PYG{o}{=} \PYG{o}{++}\PYG{n}{ptr}\PYG{p}{;} \PYG{k}{break}\PYG{p}{;}
+          \PYG{k}{case} \PYG{l+s+sc}{\PYGZsq{}h\PYGZsq{}}\PYG{o}{:}
+            \PYG{n}{sensor}\PYG{p}{[}\PYG{n}{from}\PYG{p}{].}\PYG{n}{humidity} \PYG{o}{=} \PYG{o}{++}\PYG{n}{ptr}\PYG{p}{;} \PYG{k}{break}\PYG{p}{;}
+          \PYG{k}{case} \PYG{l+s+sc}{\PYGZsq{}t\PYGZsq{}}\PYG{o}{:}
+            \PYG{n}{sensor}\PYG{p}{[}\PYG{n}{from}\PYG{p}{].}\PYG{n}{degree} \PYG{o}{=} \PYG{o}{++}\PYG{n}{ptr}\PYG{p}{;} \PYG{k}{break}\PYG{p}{;}
+          \PYG{k}{case} \PYG{l+s+sc}{\PYGZsq{}a\PYGZsq{}}\PYG{o}{:}
+            \PYG{n}{actor}\PYG{p}{[}\PYG{n}{from}\PYG{p}{].}\PYG{n}{from} \PYG{o}{=} \PYG{n}{from}\PYG{p}{;}
+            \PYG{n}{actor}\PYG{p}{[}\PYG{n}{from}\PYG{p}{].}\PYG{n}{number} \PYG{o}{=} \PYG{n}{strtol}\PYG{p}{(}\PYG{o}{++}\PYG{n}{ptr}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{pEnd}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{);}
+            \PYG{k}{break}\PYG{p}{;}
+        \PYG{p}{\PYGZcb{}}
+        \PYG{n}{ptr} \PYG{o}{=} \PYG{n}{strtok}\PYG{p}{(}\PYG{n+nb}{NULL}\PYG{p}{,} \PYG{l+s}{\PYGZdq{},\PYGZdq{}}\PYG{p}{);}
+        \PYG{n}{oledupdate} \PYG{o}{=} \PYG{n+nb}{true}\PYG{p}{;}
+      \PYG{p}{\PYGZcb{}}
+      \PYG{c+c1}{// Send a reply back to the originator client}
+      \PYG{n}{from} \PYG{o}{+=} \PYG{l+m+mi}{2}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+\end{Verbatim}
