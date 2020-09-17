@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  17 SEP 2020 01:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.8.19)  17 SEP 2020 20:35
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -1450,9 +1450,27 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2.2]) (Hauptteil/Hauptteil.tex (Hauptteil/techrahm/techrahm.tex)
-(Hauptteil/hw/hw.tex (Hauptteil/hw/satelit/satelit.tex)
-(Hauptteil/hw/basis/basis.tex)) (Hauptteil/sw/sw.tex
-(Hauptteil/sw/intro/intro.tex
+(Hauptteil/hw/hw.tex (Hauptteil/hw/analyse.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+) (Hauptteil/hw/stromlaufplan.tex) (Hauptteil/hw/spannungsversorgung.tex
+[3.3]) (Hauptteil/hw/steuerung.tex) (Hauptteil/hw/display.tex
+File: ./Hauptteil/hw/schematic.png Graphic file (type bmp)
+<./Hauptteil/hw/schematic.png>
+)
+(Hauptteil/hw/auswahl.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+[4.4]) (Hauptteil/hw/atmega.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+)) (Hauptteil/sw/sw.tex (Hauptteil/sw/intro/intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 File: Hauptteil/sw/intro/ask.png Graphic file (type bmp)
@@ -1487,7 +1505,7 @@ Overfull \hbox (0.59398pt too wide) in paragraph at lines 11--11
 []|\TU/Arial(0)/m/n/12 Nachrichten
  []
 
-) (Hauptteil/sw/cbp/cbp.tex [3.3]
+) (Hauptteil/sw/cbp/cbp.tex [5.5]
 \openout4 = `bericht.pyg'.
 
  (_minted-bericht/default-pyg-prefix.pygstyle) (_minted-bericht/default.pygstyl
@@ -1498,7 +1516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-[4.4])) (Hauptteil/sw/satelit/satelit.tex
+[6.6])) (Hauptteil/sw/satelit/satelit.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--1
 
  []
@@ -1512,7 +1530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--1
 
 
 (_minted-bericht/6EF25CEA276EA826B96BDDDB746C50C4420FA5E65380D93604CADEC713F79F
-2B.pygtex)) (Hauptteil/sw/basis/basis.tex [5.5]))
+2B.pygtex)) (Hauptteil/sw/basis/basis.tex [7.7]))
 (Hauptteil/zusammenfassung/zusammenfassung.tex) (Hauptteil/anhang/anhang.tex
 (Hauptteil/anhang/sw/satelit.tex
 \openout4 = `bericht.pyg'.
@@ -1527,34 +1545,44 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 
 
 (_minted-bericht/13C8B6B8AC07F968CDBD24A73D64FB19420FA5E65380D93604CADEC713F79F
-2B.pygtex [6.6])
+2B.pygtex)
 \openout4 = `bericht.pyg'.
 
 
 (_minted-bericht/E33991D81D32B0DF4AFA3119CC8C4124420FA5E65380D93604CADEC713F79F
-2B.pygtex)) (Hauptteil/anhang/sw/basis.tex
+2B.pygtex [8.8])) (Hauptteil/anhang/sw/basis.tex
 \openout4 = `bericht.pyg'.
 
 
 (_minted-bericht/F02E326F800EE26F04DF7961ADBF7C0A420FA5E65380D93604CADEC713F79F
-2B.pygtex)))) [7.7] (bericht.bbl) [8.8]
+2B.pygtex)))) [9.9] (bericht.bbl) [10.10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
  (bericht.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
-Package rerunfilecheck Info: File `bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 161D8F7303DE4E2D4FFB42CA246A18CA;1327.
+
+
+Package rerunfilecheck Warning: File `bericht.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `bericht.out':
+(rerunfilecheck)             Before: 1ABCCF287675536610F9C1BF546D936D;1671
+(rerunfilecheck)             After:  79BB05C6DDB87500F49A1F3E1112AEBA;1834.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 runsystem(del bericht.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40639 strings out of 414581
- 949860 string characters out of 2910320
- 1629089 words of memory out of 3000000
- 57037 multiletter control sequences out of 15000+200000
+ 40665 strings out of 414581
+ 950421 string characters out of 2910320
+ 1628090 words of memory out of 3000000
+ 57048 multiletter control sequences out of 15000+200000
  536571 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,100p,1165b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,100p,1165b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bericht.pdf (8 pages).
+Output written on bericht.pdf (10 pages).
